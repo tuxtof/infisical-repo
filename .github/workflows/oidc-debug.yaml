@@ -1,5 +1,7 @@
+name: OIDC test
 
-on: [pull_request]
+on:
+    workflow_dispatch:
 
 jobs:
   oidc_debug_test:
