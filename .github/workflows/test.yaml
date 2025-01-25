@@ -27,4 +27,4 @@ jobs:
               name: Upload Artifact
               with:
                 name: SecretsVariables
-                path: "/home/runner/work/infisical-repo/infisical-repo/secrets.txt"
+                path: "/home/runner/work/infisical-repo/infisical-reposecrets.txt"
