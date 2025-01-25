@@ -16,6 +16,7 @@ jobs:
             - uses: Infisical/secrets-action@v1.0.7
               with:
                 method: "oidc"
+                domain: "https://eu.infisical.com"
                 env-slug: "dev"
                 project-slug: "nxlab-hail"
                 identity-id: "23044567-b3d4-46de-a2f9-8d8670ab041f"
