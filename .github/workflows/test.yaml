@@ -21,9 +21,10 @@ jobs:
                 project-slug: "nxlab-hail"
                 identity-id: "23044567-b3d4-46de-a2f9-8d8670ab041f"
                 export-type: "file"
+                file-output-path: "secrets.txt"
             
             - uses: actions/upload-artifact@v3
               name: Upload Artifact
               with:
                 name: SecretsVariables
-                path: ".env"
+                path: "secrets.txt"
